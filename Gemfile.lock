@@ -35,10 +35,6 @@ GEM
       sass (>= 3.2.0.alpha.95)
     arel (3.0.2)
     atomic (1.1.14)
-    aws-sdk (1.11.1)
-      json (~> 1.4)
-      nokogiri (>= 1.4.4)
-      uuidtools (~> 2.1)
     backports (3.3.4)
     bcrypt-ruby (3.1.2)
     better_errors (1.0.1)
@@ -49,9 +45,6 @@ GEM
     bootstrap-sass (2.3.2.2)
       sass (~> 3.2)
     builder (3.0.4)
-    bundle_cache (0.0.5)
-      aws-sdk (>= 1.0.0)
-      bundler
     cancan (1.6.10)
     capybara (2.0.3)
       mime-types (>= 1.16)
@@ -434,7 +427,6 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootstrap-sass
-  bundle_cache
   cancan
   capybara (~> 2.0.3)
   coffee-rails

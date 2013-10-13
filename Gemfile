@@ -87,9 +87,6 @@ gem 'jquery-turbolinks'
 # push / websocket events
 gem 'pusher'
 
-# speeds up Travis builds by caching the bundle
-gem 'bundle_cache'
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
