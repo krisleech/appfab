@@ -87,6 +87,9 @@ gem 'jquery-turbolinks'
 # push / websocket events
 gem 'pusher'
 
+# makes the app (more) 12-factor compliant
+gem 'rails_12factor', group: :production
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
